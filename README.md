@@ -2,8 +2,6 @@
 
 Convert a Kiwix ZIM archive into a SLOB dictionary that Aard2 can open.
 
-A cancelled run is not a valid dictionary. The header, sorted key index, and file-size field are written only when conversion finishes. Aard2 checks that size and will reject a partial file (`UnsupportedEncodingException` or a size error).
-
 ## Build
 
 ```bash
