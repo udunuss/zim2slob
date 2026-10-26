@@ -1,0 +1,22 @@
+[package]
+name = "zim2slob"
+version = "0.1.0"
+edition = "2021"
+description = "High-performance ZIM to SLOB converter"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+byteorder = "1"
+zstd = "0.13"
+xz2 = "0.1"
+lzma-sys = "0.1"
+flate2 = "1"
+feruca = "0.12"
+uuid = { version = "1", features = ["v4"] }
+indicatif = "0.17"
+anyhow = "1"
+log = "0.4"
+env_logger = "0.11"
+memmap2 = "0.9"
+md-5 = "0.10"
